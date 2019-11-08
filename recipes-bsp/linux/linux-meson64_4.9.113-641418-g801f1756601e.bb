@@ -3,6 +3,8 @@ PROVIDES = "linux-dreambox"
 
 require recipes-bsp/linux/linux-dreambox-one.inc
 
+PACKAGE_ARCH = "${MACHINE_ARCH}"
+
 SRC_URI = "https://dreamboxupdate.com/download/opendreambox/${BPN}/${BPN}-v${PV}.tar.xz"
 SRC_URI[md5sum] = "f084198603c2bdd580fa09de2f98527d"
 SRC_URI[sha256sum] = "4809dfd2aff93c6bc6fe4439dbf768d3a2cb5c67a8235074e87c328517ab1fab"

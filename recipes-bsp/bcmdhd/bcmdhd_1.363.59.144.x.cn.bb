@@ -17,3 +17,5 @@ export KCFLAGS = "-Wno-error=stringop-overflow \
                   -Wno-error=address-of-packed-member \
                   -Wno-error=missing-attributes \
                   "
+
+COMPATIBLE_MACHINE = "^(dreamone)$"
